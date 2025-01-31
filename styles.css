@@ -1,0 +1,117 @@
+/* Import Google Font - Figtree */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+/* CSS Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors from style guide */
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  padding: 1.25rem;
+}
+
+/* Main container styles */
+.card {
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 1.5rem;
+  max-width: 375px;
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px 0 var(--gray-950);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Typography */
+.tag {
+  display: inline-block;
+  background-color: var(--yellow);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 800;
+  margin: 1.5rem 0;
+}
+
+.date {
+  color: var(--gray-950);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  color: var(--gray-950);
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  color: var(--gray-500);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+/* Author section */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-weight: 800;
+  color: var(--gray-950);
+}
+
+/* Attribution styles */
+.attribution {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: var(--gray-950);
+}
+
+/* Hover states */
+.card:hover {
+  box-shadow: 16px 16px 0 var(--gray-950);
+  cursor: pointer;
+  transform: translate(-8px, -8px);
+}
+
+.title:hover {
+  color: var(--yellow);
+}
