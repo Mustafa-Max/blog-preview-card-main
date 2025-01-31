@@ -80,9 +80,9 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [VS Code]([https://www.example.com](https://code.visualstudio.com/)) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [VS Code](https://code.visualstudio.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Website - [Mustafa-Max]((https://github.com/Mustafa-Max))
-- Frontend Mentor - [@Mustafa-Max]((https://www.frontendmentor.io/profile/Mustafa-Max))
+- Website - [Mustafa-Max](https://github.com/Mustafa-Max)
+- Frontend Mentor - [@Mustafa-Max](https://www.frontendmentor.io/profile/Mustafa-Max)
